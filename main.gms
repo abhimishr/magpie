@@ -193,7 +193,7 @@ $setglobal area_equipped_for_irrigation  endo_apr13
 $setglobal water_demand  agr_sector_aug13
 $setglobal water_availability  total_water_aug13
 $setglobal climate  static
-$setglobal airpol  off
+$setglobal airpol  feb19
 
 $setglobal nr_soil_budget  exoeff_aug16
 $setglobal nitrogen  ipcc2006_sep16

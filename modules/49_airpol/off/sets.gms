@@ -8,7 +8,7 @@ sets
 
 emis_fire_all(emis_source)       Emission sources common with the GFED data
 /
-  primforest_vegc, secdforest_vegc, past_vegc, other_vegc,forestry_vegc, resid_burn
+  primforest_vegc, secdforest_vegc, past_vegc, other_vegc,forestry_vegc, resid_burn, deforest
 /
 
 emis_fire_non_gfed (emis_source)
@@ -26,7 +26,7 @@ emis_fire_non_gfed (emis_source)
 
 emis_fire49(emis_fire_all)       Emission sources common with the GFED data
 /
-  primforest_vegc, secdforest_vegc, past_vegc, other_vegc,forestry_vegc
+  primforest_vegc, secdforest_vegc, past_vegc, other_vegc,forestry_vegc, deforest
 /
 
 

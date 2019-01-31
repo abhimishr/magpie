@@ -21,4 +21,4 @@ q49_emis_deforest(i2,pollutants_gfed) ..
 q49_emis_residues(i2,pollutants_gfed) ..
                     vm_btm_reg(i2,"resid_burn",pollutants_gfed)
                     =e=
-                   sum(kcr,vm_res_ag_burn(i,kcr,"c")) * f49_emis_factor_c(pollutants_gfed,"agri");
+                   sum(kcr,vm_res_ag_burn(i2,kcr,"c")) * f49_emis_factor_c(pollutants_gfed,"agri");

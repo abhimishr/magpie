@@ -266,17 +266,20 @@ sets
     ch4,
     n2o_n_direct, n2o_n_indirect,
     nh3_n, no2_n,
-    no3_n /
+    no3_n,
+    nmhc,h2,pm2_5,tpm,tc,oc,so2,bc,co
+    /
 
     pollutants_gfed(pollutants)        List of pollutants provided by GFED
     /
-    co2_c,ch4,n2o_n_direct,nh3_n
+    co2_c,ch4,n2o_n_direct,nh3_n,nmhc,h2,pm2_5,tpm,tc,oc,so2,bc
     /
 
     pollutants_non_gfed(pollutants)        List of pollutants provided by GFED
     /no2_n,
     no3_n,
-    n2o_n_indirect
+    n2o_n_indirect,
+    co
     /
 
    emis_source Emission sources

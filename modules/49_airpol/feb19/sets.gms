@@ -25,25 +25,13 @@ emis_fire_non_gfed (emis_source)
 
 emis_fire49(emis_fire_all)       Emission sources common with the GFED data
 /
-  primforest_vegc, secdforest_vegc, past_vegc, other_vegc,forestry_vegc
+  primforest_vegc, secdforest_vegc, past_vegc, other_vegc,forestry_vegc, deforest
 /
 
 
 emis49(land)       Emission sources common with the GFED data
 /
   primforest,secdforest,forestry,past,other
-/
-
-pollutants_gfed(pollutants_all)        List of pollutants provided by GFED
-/
-co2_c,ch4,n2o_n_direct,nh3_n,nmhc,h2,pm2_5,tpm,tc,oc,so2,bc
-/
-
-pollutants_non_gfed(pollutants_all)        List of pollutants provided by GFED
-/no2_n,
-no3_n,
-n2o_n_indirect,
-co
 /
 
 gfed_emis_cat emission categories from GFED
