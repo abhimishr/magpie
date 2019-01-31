@@ -245,6 +245,40 @@ sets
 
 ***Emissions ***
 
+  pollutants_all all pollutant sources
+  / co2_c,
+    ch4,
+    n2o_n_direct, nh3_n, no2_n,
+    no3_n,
+    n2o_n_indirect,
+    co,
+    nmhc,
+    h2,
+    pm2_5,
+    tpm,
+    tc,
+    oc,
+    bc,
+    so2 /
+
+    pollutants(pollutants_all) subset of pollutants_all that can be taxed
+    / co2_c,
+    ch4,
+    n2o_n_direct, n2o_n_indirect,
+    nh3_n, no2_n,
+    no3_n /
+
+    pollutants_gfed(pollutants)        List of pollutants provided by GFED
+    /
+    co2_c,ch4,n2o_n_direct,nh3_n
+    /
+
+    pollutants_non_gfed(pollutants)        List of pollutants provided by GFED
+    /no2_n,
+    no3_n,
+    n2o_n_indirect
+    /
+
    emis_source Emission sources
    / inorg_fert, man_crop, awms, resid, man_past, som,
      rice, ent_ferm,
@@ -253,9 +287,9 @@ sets
      past_vegc, past_litc, past_soilc,
      forestry_vegc, forestry_litc, forestry_soilc,
      primforest_vegc, primforest_litc, primforest_soilc,
-secdforest_vegc, secdforest_litc, secdforest_soilc,     urban_vegc, urban_litc, urban_soilc,
+     secdforest_vegc, secdforest_litc, secdforest_soilc,     urban_vegc, urban_litc, urban_soilc,
      other_vegc, other_litc, other_soilc,
-     beccs/
+     beccs, deforest/
 
    emis_source_reg(emis_source) Regional emission sources
    / inorg_fert, man_crop, awms, resid, man_past, som,

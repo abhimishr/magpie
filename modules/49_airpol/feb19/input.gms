@@ -4,9 +4,14 @@
 *** |  or later. See LICENSE file or go to http://www.gnu.org/licenses/
 *** |  Contact: magpie@pik-potsdam.de
 
+table f49_emis_factor_land(iso,emis49,pollutants_gfed) GFED data
+$ondelim
+$include "./modules/49_airpol/input/f49_emis_factor_land.cs3"
+$offdelim
+;
 
-
-vm_res_biomass_ag.fx(i,kcr,attributes) = 0;
-vm_res_biomass_bg.fx(i,kcr,dm_nr) = 0;
-vm_res_recycling.fx(i,npk) = 0;
-vm_res_ag_burn.fx(i,kcr,attributes) = 0;
+table f49_emis_factor_c(pollutants_gfed,gfed_emis_cat) GFED data
+$ondelim
+$include "./modules/49_airpol/input/f49_emis_factors_C.cs3"
+$offdelim
+;

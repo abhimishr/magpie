@@ -6,29 +6,6 @@
 
 sets
 
-   pollutants_all all pollutants
-   / co2_c,
-   ch4,
-   n2o_n_direct, nh3_n, no2_n,
-   no3_n,
-   n2o_n_indirect,
-   co,
-   nmhc,
-   h2,
-   pm2_5,
-   tpm,
-   tc,
-   oc,
-   bc,
-   so2 /
-
-   pollutants(pollutants_all) subset of pollutants_all that can be taxed
-   / co2_c,
-   ch4,
-   n2o_n_direct, n2o_n_indirect,
-   nh3_n, no2_n,
-   no3_n /
-
    n_pollutants(pollutants) subset of n pollutants
    / n2o_n_direct,n2o_n_indirect,
    nh3_n, no2_n,

@@ -26,14 +26,9 @@ nonused18(kcr) crops that are not used as residues
 
    kres_kcr(kres,kcr) mapping of crops to different residue types
    /     res_cereals                   .(tece,maiz,trce,rice_pro)
-         res_fibrous                   .(soybean,rapeseed,groundnut,
-                                         puls_pro,sugr_beet,sugr_cane,
-                                         cottn_pro)
+         res_fibrous                   .(soybean,rapeseed,groundnut,puls_pro,sugr_beet,sugr_cane, cottn_pro)
          res_nonfibrous                .(potato,cassav_sp,others)
    /
-
-
-
 ;
 
 *** EOF sets.gms ***

@@ -95,8 +95,8 @@ $title magpie
 * md5sum: 98e158205482936e487aeb616dea5403
 * Repository: https://rse.pik-potsdam.de/data/magpie/public
 *
-* Used data set: additional_data_rev3.62.tgz
-* md5sum: 0b7a94fe3114c7fb2b14f9ac59c3a01a
+* Used data set: additional_data_rev3.65.tgz
+* md5sum: 0def52c4bf1dd0bad3ee995f7c3296cd
 * Repository: scp://cluster.pik-potsdam.de/p/projects/landuse/data/input/archive
 *
 * Low resolution: c200
@@ -130,7 +130,7 @@ $title magpie
 *
 *
 *
-* Last modification (input data): Tue Dec 18 10:24:18 2018
+* Last modification (input data): Thu Jan 31 18:54:01 2019
 *
 *###################### R SECTION END (VERSION INFO) ###########################
 
@@ -193,6 +193,7 @@ $setglobal area_equipped_for_irrigation  endo_apr13
 $setglobal water_demand  agr_sector_aug13
 $setglobal water_availability  total_water_aug13
 $setglobal climate  static
+$setglobal airpol  off
 
 $setglobal nr_soil_budget  exoeff_aug16
 $setglobal nitrogen  ipcc2006_sep16

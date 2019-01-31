@@ -32,6 +32,7 @@ $include "./modules/41_area_equipped_for_irrigation/41_area_equipped_for_irrigat
 $include "./modules/42_water_demand/42_water_demand.gms"
 $include "./modules/43_water_availability/43_water_availability.gms"
 $include "./modules/45_climate/45_climate.gms"
+$include "./modules/49_airpol/49_airpol.gms"
 $include "./modules/50_nr_soil_budget/50_nr_soil_budget.gms"
 $include "./modules/51_nitrogen/51_nitrogen.gms"
 $include "./modules/52_carbon/52_carbon.gms"

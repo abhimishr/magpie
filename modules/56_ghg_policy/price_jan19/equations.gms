@@ -61,7 +61,7 @@ q56_cell_to_reg(i2,pollutants,emis_source) ..
 *' level them with yearly emissions. Since one-off emissions are delivered by the [52_carbon] module as annual emissions they are
 *' multiplied here by the timestep length `m_timestep_length` to obtain emissions for the entire timestep and are then
 *' transformed back into annual costs by multiplying by the emission price and a discount factor `p56_ghg_price_growth_rate`
-*' that is equal to the growth rate of the emissions price. 
+*' that is equal to the growth rate of the emissions price.
 
  q56_emission_costs_reg_oneoff(i2,emis_reg_one56) ..
                  v56_emission_costs_reg_oneoff(i2,emis_reg_one56) =g=
@@ -94,7 +94,7 @@ q56_cell_to_reg(i2,pollutants,emis_source) ..
                + sum((emis_cell_one56, cell(i2,j2)), v56_emission_costs_cell_oneoff(j2,emis_cell_one56))
                  ;
 
-*' **Benefits** from carbon removal (from afforestation) are also calculated in this module taking into account the policy that was 
+*' **Benefits** from carbon removal (from afforestation) are also calculated in this module taking into account the policy that was
 *' defined above in `f56_aff_policy`. Cost and benefits are however not summed here but in [11_costs].
 
  q56_reward_cdr_aff_reg(i2) ..
