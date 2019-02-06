@@ -272,7 +272,7 @@ sets
 
     pollutants_gfed(pollutants)        List of pollutants provided by GFED
     /
-    co2_c,ch4,n2o_n_direct,nh3_n,nmhc,h2,pm2_5,tpm,tc,oc,so2,bc
+    ch4,n2o_n_direct,nh3_n,nmhc,h2,pm2_5,tpm,tc,oc,so2,bc
     /
 
     pollutants_non_gfed(pollutants)        List of pollutants provided by GFED

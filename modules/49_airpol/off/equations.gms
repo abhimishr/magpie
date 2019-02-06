@@ -7,17 +7,17 @@
 
 q49_emission(i2,emis_fire49,pollutants_gfed) ..
                  vm_btm_reg(i2,emis_fire49,pollutants_gfed)
-                 =e=
+                 =g=
                  0
                  ;
 
 q49_emis_deforest(i2,pollutants_gfed) ..
                  vm_btm_reg(i2,"deforest",pollutants_gfed)
-                 =e=
+                 =g=
                  0
                  ;
 
 q49_emis_residues(i2,pollutants_gfed) ..
                     vm_btm_reg(i2,"resid_burn",pollutants_gfed)
-                    =e=
+                    =g=
                     0;

@@ -4,4 +4,4 @@
 *** |  or later. See LICENSE file or go to http://www.gnu.org/licenses/
 *** |  Contact: magpie@pik-potsdam.de
 
-vm_res_ag_burn.fx(i,kcr,attributes) = 0;
+*vm_res_ag_burn.fx(i,kcr,attributes) = 0;

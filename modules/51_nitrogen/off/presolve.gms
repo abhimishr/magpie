@@ -4,5 +4,4 @@
 *** |  or later. See LICENSE file or go to http://www.gnu.org/licenses/
 *** |  Contact: magpie@pik-potsdam.de
 
- vm_btm_reg.fx(i,emis_source,n_pollutants) = 0;
-
+* vm_btm_reg.fx(i,emis_source,n_pollutants) = 0;
