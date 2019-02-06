@@ -8,3 +8,4 @@
 *' Methane emission from agricultural sources equals to zero.
 
 * vm_btm_reg.fx(i,emis_source,"ch4") = 0;
+ vm_btm_reg.fx(i,emis_source_nomethane53,"ch4") = 0;

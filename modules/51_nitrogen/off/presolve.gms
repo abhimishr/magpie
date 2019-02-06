@@ -5,3 +5,4 @@
 *** |  Contact: magpie@pik-potsdam.de
 
 * vm_btm_reg.fx(i,emis_source,n_pollutants) = 0;
+ vm_btm_reg.fx(i,emis_source_nonitrogen51,n_pollutants) = 0;

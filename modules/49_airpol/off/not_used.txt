@@ -6,3 +6,4 @@
 
 name,type,reason
 vm_land, var, not used
+vm_res_ag_burn, var, not used
