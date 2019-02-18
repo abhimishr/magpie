@@ -30,6 +30,7 @@ cfg$repositories <- append(list("https://rse.pik-potsdam.de/data/magpie/public"=
                            getOption("magpie_repos"))
 
 
+cfg$title<- paste0("airpollution","-",format(Sys.time(), format="%m%d"),"_",format(Sys.time(), format="%H%M"))						   
 cfg$results_folder <- "output/:title:"
 
 start_run(cfg,codeCheck=FALSE)
