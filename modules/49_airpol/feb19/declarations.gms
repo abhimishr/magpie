@@ -11,6 +11,10 @@ equations
  q49_emis_deforest(i,pollutants_gfed)                 Deforestation emissions (mio. ton)
 ;
 
+parameters
+ p49_burn_emis(t,i,emis_fire49,pollutants_gfed)       Emissions from burning (mio. ton)
+;
+
 *#################### R SECTION START (OUTPUT DECLARATIONS) ####################
 parameters
  oq49_emission(t,i,emis_fire49,pollutants_gfed,type) Emission from GFED data (mio. ton)
