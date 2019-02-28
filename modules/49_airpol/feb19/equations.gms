@@ -8,8 +8,8 @@
 q49_emission(i2,emis_fire49,pollutants_gfed) ..
                  vm_btm_reg(i2,emis_fire49,pollutants_gfed)
                  =e=
-                 sum((pol_map(emis_fire49,emis49),cell(i,j)),vm_land(j,emis49))
-                 *sum((i_to_iso(i,iso),pol_map(emis_fire49,emis49)),f49_emis_factor_land(iso,emis49,pollutants_gfed))
+                 sum((pol_map(emis_fire49,emis49),cell(i2,j2)),vm_land(j2,emis49))
+                 *sum((i_to_iso(i2,iso),pol_map(emis_fire49,emis49)),f49_emis_factor_land(iso,emis49,pollutants_gfed))
                  ;
 
 q49_emis_deforest(i2,pollutants_gfed) ..
